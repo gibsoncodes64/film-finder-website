@@ -1,0 +1,263 @@
+*{
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #080813;
+}
+
+
+h1{
+    font-size: 35px;
+    color:#499bff
+}
+
+p{
+    font-size: 25px;
+    color:#499bff
+   
+}
+
+p2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    
+    
+}
+
+p3{
+  color: rgb(189, 211, 255);
+  font-size: 18px;
+  
+}
+
+nav {
+    background-color: #000000;
+    padding: px;
+  }
+  
+ a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  /* a:hover {
+    border-radius: 10px;
+    border: 2px solid #ff2929;
+    fill: #ff2929;
+  } */
+  
+  img {border-radius: 10px;
+    margin-right: 0%;
+    
+}
+
+
+
+
+
+
+/* top bar */
+
+body {
+  margin:15;
+  
+}
+
+.top-bar {
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: left;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 0px;
+  box-sizing: border-box; 
+}
+
+.top-bar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 20px;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.top-bar a:hover {
+  border-radius: 10px;
+  
+  fill: #499bff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-bar a.active {
+  fill: #499bff;
+  background-color: rgba(73, 155, 255, 0.3);
+}
+
+
+
+
+ 
+/* image grid */
+
+
+.image-container-wrapper {
+    overflow-x: auto; 
+    white-space: nowrap;
+  }
+
+  
+  
+.image-container {
+    display: inline-flex;
+  }
+  
+  .image-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px; 
+  }
+  
+  .image-item:last-child {
+    margin-right: 0; 
+  }
+  
+  .image-caption {
+    margin-top: 10px; 
+  }
+
+
+ /* banner */
+  
+ /* .banner-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.banner-navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner-navigation button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.banner-navigation button img {
+    width: 20px;
+    height: 20px;
+} */
+
+
+
+/* poster hover animation */
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-item img {
+  transition: transform 0.3s;
+}
+
+.image-item:hover img {
+  transform: scale(1.08);
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-item:hover .image-caption {
+  opacity: 1;
+}
+
+
+
+
+/* Changes visuals of scrollbar */
+
+.image-container-wrapper {
+ 
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 20px 0; 
+  scrollbar-width: thin; 
+  scrollbar-color: #888888 #f5f5f5; 
+}
+
+.image-container-wrapper::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+  height: 8px;
+}
+
+.image-container-wrapper::-webkit-scrollbar-thumb {
+  background-color: #499bff; 
+  border-radius: 8px; 
+  border-radius: 8px;
+}
+
+.image-container-wrapper::-webkit-scrollbar-track {
+  background-color: #f5f5f5; 
+  border-radius: 8px;
+}
+
+.image-container-wrapper:hover::-webkit-scrollbar-thumb {
+  background-color: #414141; 
+}
+
+.image-container-wrapper:hover::-webkit-scrollbar-track {
+  background-color: #eaeaea; 
+}
+
+
+/* @media (max-width: 600px) {
+  *{
+    width: 20%;
+  }
+
+} */
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
